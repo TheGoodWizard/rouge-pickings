@@ -1,0 +1,190 @@
+/****** BASE STYLES ******/ 
+
+body {
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/****** GRID ******/
+
+.full-width {
+    margin: 0 auto;
+    overflow: auto;
+    width: 98%;
+}
+
+.half-width {
+    float: left;
+    width: 49%;
+}
+
+.thrid-width {
+    float: left;
+    width: 33%;
+}
+
+
+/****** HEADER SECTION CSS ******/
+
+header {
+    background-color: #ffffff;
+    height: 113px;
+}
+
+header h1 {
+    color: #77a466;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    padding: 25px 0 25px 15px;
+    text-transform: uppercase;
+}
+
+header h1 span {
+    color: #000000;
+}
+
+
+/****** MAIN NAVIGATION CSS ******/ 
+
+nav {
+    float: right;
+    padding: 25px 15px;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    color: #77a466;
+    font-size: 14px;
+    font-weight: bold;
+    padding-left: 14px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+/****** TOP SECTION STYLES ******/
+
+.full-width img {
+    border-bottom: 3px solid #77a466;
+    padding-top: 8px;
+    height: 290px;
+    width: 100%;
+}
+
+#welcome .full-width {
+    padding: 4px 0; 
+
+}
+
+#welcome h2 {
+    color: #82ab73;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    padding: 5px 0px;
+    text-transform: uppercase;
+}
+
+#welcome p {
+    color: #000000;
+    font-size: 18px;
+    line-height: 25px;
+    padding: 10px 0px;
+}
+
+
+
+/****** BOTTOM SECTION STYLES ******/
+
+
+
+#bottom .full-width {
+    border-top: 1px solid #dedbdc;
+    border-bottom: 1px solid #dedbdc;
+    
+}
+
+ #bottom .third-width {
+    display: inline-block;
+    padding: 15px 0;
+    width: 33%;
+} 
+
+#bottom .third-width .heading-position {
+    padding-left: 30px;
+}
+
+
+#bottom h4 {
+    color: #000000;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 25px; 
+    margin: 0 auto;
+    padding: 0 auto;
+    text-transform: uppercase;
+}
+
+#bottom h3 {
+    color: #77a466;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 25px;
+    padding: 0 auto;  
+}
+
+#bottom p {
+    color: #000000;
+    font-size: 16px;
+    line-height: 16px;
+    padding-left: 30px;
+    text-transform: capitalize;
+}
+
+#todays-specials {
+    border-right: 1px solid #dedbdc;
+}
+
+#reviews {
+    border-right: 1px solid #dedbdc;
+}
+
+#bottom blockquote {
+    color: #000000;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 21px;
+}
+
+footer h2 {
+    color: #000000;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 30px 0;
+    text-align: center;
+    text-transform: uppercase;
+} 
+
+footer h2 span {
+    color: #77a466;
+    font-family: 'Galada', cursive;
+    font-style: italic;
+    font-weight: normal;
+    text-transform: lowercase;
+}
+
+
+/****** FONT(S) ******/
+
+@font-face {
+    font-family: 'Montserrat', sans-serif;
+    src: url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+} 
+
+@font-face {
+    font-family: 'Galada', cursive;
+    src: url('https://fonts.googleapis.com/css2?family=Galada&display=swap');
+}
