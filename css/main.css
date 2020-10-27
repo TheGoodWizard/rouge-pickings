@@ -1,190 +1,160 @@
-/****** BASE STYLES ******/ 
-
 body {
-    color: #ffffff;
-    font-family: 'Montserrat', sans-serif;
+	font-family: 'Montserrat', Helvetica, Arial, sans-serif;
 }
 
-
-/****** GRID ******/
-
-.full-width {
-    margin: 0 auto;
-    overflow: auto;
-    width: 98%;
+.container{
+	max-width: 1200px;
+	margin: 0 auto;
 }
 
-.half-width {
-    float: left;
-    width: 49%;
+h1,
+h2,
+h3,
+h4 {
+	color: black;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+h1 {
+	font-size: 30px;
+}
+h2 {
+    font-size: 24px;
+}
+h3 {
+	font-size: 18px;
+}
+h4 {
+	font-size: 12px;
 }
 
-.thrid-width {
-    float: left;
-    width: 33%;
+p {
+	font-size: 14px;
+	line-height: 21px;
+    padding: 0 30px;
 }
 
-
-/****** HEADER SECTION CSS ******/
-
+/*The widths are in a percentage!*/
 header {
-    background-color: #ffffff;
-    height: 113px;
+	height: 110px;
+	border-bottom: 3px solid #77a466;
+	margin: 0 auto;
 }
 
 header h1 {
-    color: #77a466;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 30px;
-    padding: 25px 0 25px 15px;
-    text-transform: uppercase;
+	float: left;
+	margin: 0;
+	padding: 38px 0;
 }
-
 header h1 span {
-    color: #000000;
+	color: #77a466;
 }
 
-
-/****** MAIN NAVIGATION CSS ******/ 
-
-nav {
-    float: right;
-    padding: 25px 15px;
+header nav {
+	float: right;
+	padding: 46px 0;
+}
+header nav ul {
+	margin: 0;
+	padding: 0;
+}
+header nav ul li {
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 14px;
+	padding: 0 10px;
+	display: inline;
+}
+header nav ul li a{
+	text-decoration: none;
+	color:#77a466;
 }
 
-nav ul li {
-    display: inline-block;
+/*The widths are in a percentage!*/
+.top-section,
+.bottom-section {
+	margin: 0 auto;
+	clear: both;
 }
 
-nav ul li a {
-    color: #77a466;
-    font-size: 14px;
-    font-weight: bold;
-    padding-left: 14px;
-    text-decoration: none;
-    text-transform: uppercase;
+.main-image {
+	height: auto;
+	float: left;
+}
+.main-image img {
+	width: 100%;
+	border-bottom: 3px solid #77a466;
 }
 
-/****** TOP SECTION STYLES ******/
-
-.full-width img {
-    border-bottom: 3px solid #77a466;
-    padding-top: 8px;
-    height: 290px;
-    width: 100%;
+.main-title {
+	height: auto;
+	float: left;
+}
+.main-title h3 {
+	text-align: left;
+	padding: 5px 0;
+	color: #77a466;
+}
+.main-title p {
+	padding: 0;
+	font-size: 16px;
+	line-height: 25px;
 }
 
-#welcome .full-width {
-    padding: 4px 0; 
-
+.section-one,
+.section-two,
+.section-three {
+	width: 33%;
+	height: auto;
+	float: left;
+	border-top: 1px solid #eee;
 }
 
-#welcome h2 {
-    color: #82ab73;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 18px;
-    padding: 5px 0px;
-    text-transform: uppercase;
+.section-one h4 {
+	padding: 10px 0;
 }
 
-#welcome p {
-    color: #000000;
-    font-size: 18px;
-    line-height: 25px;
-    padding: 10px 0px;
+.section-two {
+	border-left: 1px solid #eee;
+	border-right: 1px solid #eee;
 }
 
-
-
-/****** BOTTOM SECTION STYLES ******/
-
-
-
-#bottom .full-width {
-    border-top: 1px solid #dedbdc;
-    border-bottom: 1px solid #dedbdc;
-    
+.section-two h4,
+.section-three h4 {
+	padding: 10px 30px;
 }
 
- #bottom .third-width {
-    display: inline-block;
-    padding: 15px 0;
-    width: 33%;
-} 
-
-#bottom .third-width .heading-position {
-    padding-left: 30px;
+.menu {
+	list-style: none;
+	padding: 0;
+}
+.menu li {
+	padding: 10px 0;
+	color:#77a466;
 }
 
-
-#bottom h4 {
-    color: #000000;
-    font-size: 12px;
-    font-weight: bold;
-    line-height: 25px; 
-    margin: 0 auto;
-    padding: 0 auto;
-    text-transform: uppercase;
+.reviews {
+	color: #333;
+	font-size: 16px;
+	line-height: 21px;
 }
 
-#bottom h3 {
-    color: #77a466;
-    font-size: 16px;
-    font-weight: normal;
-    line-height: 25px;
-    padding: 0 auto;  
+.address {
+	font-size: 16px;
+	line-height: 24px;
 }
 
-#bottom p {
-    color: #000000;
-    font-size: 16px;
-    line-height: 16px;
-    padding-left: 30px;
-    text-transform: capitalize;
+/*The widths are in a percentage!*/
+footer {
+	height: 50px;
+	border-top: 3px solid #eee;
+	margin: 0 auto;
+	clear: both;
+	text-align: center;
 }
-
-#todays-specials {
-    border-right: 1px solid #dedbdc;
-}
-
-#reviews {
-    border-right: 1px solid #dedbdc;
-}
-
-#bottom blockquote {
-    color: #000000;
-    font-size: 16px;
-    font-weight: normal;
-    line-height: 21px;
-}
-
-footer h2 {
-    color: #000000;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 16px;
-    font-weight: bold;
-    margin: 30px 0;
-    text-align: center;
-    text-transform: uppercase;
-} 
-
-footer h2 span {
-    color: #77a466;
-    font-family: 'Galada', cursive;
-    font-style: italic;
-    font-weight: normal;
-    text-transform: lowercase;
-}
-
-
-/****** FONT(S) ******/
-
-@font-face {
-    font-family: 'Montserrat', sans-serif;
-    src: url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
-} 
-
-@font-face {
-    font-family: 'Galada', cursive;
-    src: url('https://fonts.googleapis.com/css2?family=Galada&display=swap');
+footer span {
+	font-family: 'Galada', cursive;
+	text-transform: lowercase;
+	color: #77a466;
+	font-size: 14px;
 }
